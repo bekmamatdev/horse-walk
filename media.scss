@@ -1,0 +1,329 @@
+@media (max-width: 768px) {
+
+  #header{
+    .header{
+      .header--head{
+        .header--img1{
+          width: 25%;
+        }
+        .header--img2{
+          width: 50%;
+        }
+      }
+      .header-nav{
+        a{
+          font-size: 18px ;
+          margin: 0 10px;
+        }
+      }
+      .header-icon{
+        h2{
+         display: none;
+        }
+        ion-icon{
+        }
+      }
+    }
+  }
+
+  #hero{
+    .hero{
+      .hero-title{
+        padding-top: 261px !important;
+        h2{
+          width: 100px ;
+          font-size: 25px ;
+        }
+        h1{
+          font-size: 60px !important;
+        }
+        button{
+          width: 261px !important;
+          height: 50px !important;
+          font-size: 14px ;
+        }
+      }
+    }
+  }
+
+#four{
+  .four{
+    flex-wrap: wrap;
+
+  }
+}
+
+  #block{
+    .block{
+      .block-block{
+        img{
+          width: 294px !important;
+          height: 277px !important;
+        }
+        h1{
+          font-size: 22px !important;
+        }
+        h2{
+          font-size: 28px !important;
+        }
+        button{
+          width: 210px !important;
+        }
+      }
+    }
+  }
+
+#certificate{
+  .certificate{
+    display: block !important;
+    .certificate-text{
+      margin-top: 70px !important;
+      h1{
+        font-size: 30px !important;
+        }
+    }
+  }
+}
+
+#stock{
+  .stock{
+    .stock-title{
+      p{
+        width: 150px !important;
+        font-size: 16px !important;
+      }
+      h1{
+        font-size: 18px !important;
+        line-height: 35px !important;
+        margin: 8px 0 !important;
+      }
+      button{
+        width: 200px !important;
+        height: 40px !important;
+        font-size: 15px !important;
+      }
+    }
+    .stock-img{
+      margin-left: -4px !important;
+      .img1{
+        margin-left: -152px !important;
+
+    }
+      img{
+
+        width: 327px !important;
+        height: 279px !important;
+      }
+    }
+  }
+}
+
+
+#often{
+  .often-title{
+    font-size: 35px !important;
+  }
+}
+
+#footer{
+  .footer{
+    .footer-img{
+      .img{
+        display: flex;
+        flex-direction: column !important;
+        .header--img1{
+          width: 80px !important;
+          height: 80px !important;
+        }
+      }
+    }
+    .footer2{
+      h1{
+        font-size: 18px !important;
+      }
+      a{
+        font-size: 12px !important;
+      }
+    }
+    .footer-icon{
+      h2{
+       font-size: 18px !important;
+      }
+    }
+    .footer-footer{
+      h1{
+        font-size: 22px !important;
+      }
+      p{
+        font-size: 12px !important;
+      }
+      button{
+        width: 160px !important;
+        height: 43px !important;
+        font-size: 15px !important;
+      }
+    }
+  }
+}
+
+
+
+
+
+}
+@media (max-width: 480px) {
+
+  #header{
+    .header{
+      .header--head{
+        .header--img1{
+          width: 25%;
+        }
+        .header--img2{
+          width: 50%;
+        }
+      }
+      .header-nav{
+        a{
+          display: none !important;
+        }
+      }
+      .header-icon{
+        h2{
+          display: none;
+        }
+      }
+    }
+  }
+
+  #hero{
+    .hero{
+      .hero-title{
+        padding-top: 250px ;
+        h2{
+          width: 80px ;
+          font-size: 20px ;
+        }
+        }
+        h1{
+          font-size: 50px !important;
+          line-height: 40px ;
+        }
+        button{
+          width: 200px ;
+          height: 48px ;
+          font-size: 14px ;
+        }
+      }
+    }
+
+  #four{
+    .four{
+      display: block !important;
+    }
+  }
+
+#block{
+  .block{
+    .block-block{
+      img{
+        width: 400px !important;
+        height: 380px !important;
+      }
+      h1{
+        font-size: 30px !important;
+      }
+      button{
+        width: 290px !important;
+      }
+    }
+  }
+}
+
+#stock{
+  .stock{
+    min-width: 53vh !important;
+
+    .stock-title{
+      margin-left: 5px !important;
+      p{
+        width: 120px !important;
+        font-size: 12px !important;
+      }
+      h1{
+        font-size: 14px !important;
+        line-height: 27px !important;
+      }
+      .figure{
+        h2{
+          font-size: 18px !important;
+        }
+        h1{
+
+        }
+      }
+      button{
+        width: 152px !important;
+        height: 35px !important;
+        font-size: 12px !important;
+      }
+    }
+
+    .stock-img{
+
+      .img1{
+        margin-left: -94px !important;
+      }
+      img{
+        width: 233px !important;
+        height: 200px !important;
+      }
+    }
+  }
+}
+
+  #certificate{
+    .certificate{
+      .certificate-img{
+        img{
+          width: 438px !important;
+          height: 363px !important;
+        }
+      }
+      .certificate-text{
+        h1{
+          font-size: 25px !important;
+
+        }
+      }
+    }
+  }
+
+  #often{
+    .often{
+      .often-repair{
+        p{
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+
+  #footer{
+    .footer{
+      flex-wrap: wrap !important;
+      margin: 20px 10px !important;
+      .footer-img{
+        width: 200px !important;
+        margin: 20px 10px !important;
+      }
+    }
+  }
+
+  }
+
+
+
+
+
+
